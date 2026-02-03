@@ -1,0 +1,11 @@
+import { createBrowserRouter } from "react-router";
+import HomeLayout from "../layouts/HomeLayout";
+
+
+export const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <HomeLayout />,
+        errorElement: <div>Error occurred</div>
+    }
+]);
