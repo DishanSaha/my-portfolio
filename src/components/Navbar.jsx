@@ -6,7 +6,7 @@ import { Button } from "flowbite-react";
 export default function Navbar() {
   return (
     <>
-      <div className="navbar lg:max-w-[1200px] fixed top-0 left-0 right-0 lg:backdrop-blur-none lg:bg-transparent backdrop-blur-xs bg-black/10  mx-auto z-50">
+      <div className="navbar lg:max-w-[1200px] fixed top-0 left-0 right-0  backdrop-blur-xs bg-black/10  mx-auto z-50">
         <div className="navbar-start">
           {/* <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

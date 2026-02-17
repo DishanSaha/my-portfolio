@@ -4,8 +4,8 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <Homelayout />,
-        errorElement: <div>404 Not Found</div>,
-    },
+        errorElement: <div>404 Not Found</div>
+    }
 ]);
 
 export default router
