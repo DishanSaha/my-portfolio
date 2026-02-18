@@ -1,3 +1,4 @@
+import FAQ from "../../sections/FAQ";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Hero from "/src/sections/Hero";
@@ -36,6 +37,9 @@ top-0
       <section className="relative z-50">
         <Navbar />
         <Hero />
+      </section>
+      <section>
+        <FAQ />
       </section>
       <footer>
         <Footer />

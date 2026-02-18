@@ -1,4 +1,3 @@
-import React from 'react'
 import { Github } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
 import { Twitter } from 'lucide-react';
@@ -6,8 +5,9 @@ import { Twitter } from 'lucide-react';
 
 
 export default function Footer() {
+
   return (
-    <footer className=" bg-black space-y-5 mt-30">
+    <footer className=" bg-black space-y-5 mt-10">
       <div className='flex flex-col justify-center items-center max-w-300 mx-auto py-10 space-y-6'>
         <h6 className='lg:text-[24px] text-white'>Ready to collaborate?</h6>
         <h1 className='lg:text-[100px] text-5xl text-[#088395]'>GET IN TOUCH</h1>

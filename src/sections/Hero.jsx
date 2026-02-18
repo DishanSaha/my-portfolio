@@ -6,7 +6,7 @@ import { FolderKanban } from 'lucide-react';
 
 export default function Hero() {
     return (
-        <div className="max-w-[1200px]  flex flex-col justify-center items-center min-h-screen mx-auto lg:space-y-5">
+        <div className="max-w-[1200px] min-h-screen flex flex-col justify-center items-center mx-auto lg:space-y-5">
             <h1 className="lg:text-[60px] text-[36px] text-center font-extrabold bg-gradient-to-r from-[#09637E]  to-[#7AB2B2] bg-clip-text text-transparent">Junior Frontend Developer</h1>
             <p className="lg:text-[20px] text-[15px] text-[#8A8A8A] mt-4 lg:px-10 px-6 text-center">Building projects that combine aesthetics, performance, and good coding practices, always focused on creating engaging, accessible digital experiences that truly make a positive impact for users</p>
             <div className='mt-5 lg:flex lg:flex-row lg:space-x-6 flex-col space-y-4'>
