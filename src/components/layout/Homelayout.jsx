@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Hero from "/src/sections/Hero";
 import Technologies from "../../sections/Technologies";
+import About from "../../sections/About";
 
 
 
@@ -48,7 +49,8 @@ top-0
         <Hero />
       </section>
       <section>
-        <Technologies/>
+        <Technologies />
+        <About />
         <Testimonials reviewsPromise={reviewsPromise} />
         <FAQ />
       </section>
