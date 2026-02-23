@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import FAQ from "../../sections/FAQ";
+import Testimonials from "../../sections/Testimonials";
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Hero from "/src/sections/Hero";
+import Technologies from "../../sections/Technologies";
+
+
+
+const reviewsPromise = fetch('/Reviews.json')
+  .then(res => res.json())
+  .catch(err => console.error('Error fetching reviews:', err));
 
 export default function Homelayout() {
   return (
@@ -39,6 +48,8 @@ top-0
         <Hero />
       </section>
       <section>
+        <Technologies/>
+        <Testimonials reviewsPromise={reviewsPromise} />
         <FAQ />
       </section>
       <footer>
