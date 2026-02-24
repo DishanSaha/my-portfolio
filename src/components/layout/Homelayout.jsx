@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import FAQ from "../../sections/FAQ";
 import Testimonials from "../../sections/Testimonials";
 import Footer from "../Footer";
@@ -6,6 +5,7 @@ import Navbar from "../Navbar";
 import Hero from "/src/sections/Hero";
 import Technologies from "../../sections/Technologies";
 import About from "../../sections/About";
+import Projects from "../../sections/Projects";
 
 
 
@@ -51,6 +51,7 @@ top-0
       <section>
         <Technologies />
         <About />
+        <Projects />
         <Testimonials reviewsPromise={reviewsPromise} />
         <FAQ />
       </section>

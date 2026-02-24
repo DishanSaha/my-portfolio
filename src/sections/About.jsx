@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className='max-w-300 mx-auto py-10 lg:space-y-6 space-y-4 px-3 mt-10 lg:px-0'>
+        <div className='max-w-300 mx-auto py-10 lg:space-y-10 space-y-4 px-3 mt-10 lg:px-0'>
             <h1 className='text-white font-bold lg:text-5xl text-3xl'>About Me</h1>
             <h2 className='font-bold lg:text-4xl text-2xl text-[#088395]'>Mredul Saha</h2>
             <p className='lg:text-lg text-sm text-blue-200'>A passionate Frontend Developer dedicated to crafting elegant solutions to complex problems. I specialize in building modern web applications with clean code, intuitive interfaces, and robust architectures. My journey in software development is driven by curiosity, continuous learning, and a commitment to delivering exceptional digital experiences.</p>
