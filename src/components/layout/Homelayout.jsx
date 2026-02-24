@@ -17,32 +17,25 @@ const reviewsPromise = fetch('/Reviews.json')
 export default function Homelayout() {
   return (
     <div className="relative min-h-screen bg-black overflow-hidden">
+      {/* Light Background */}
       <img
         src={bgLight}
-        alt=""
-        className="absolute top-0 lg:right-[150px]
-              size-[800px]
-               blur-xl 
-               mix-blend-screen"
+        alt="Light Background"
+        className="absolute top-0 right-0 lg:right-[150px] w-[300px] sm:w-[500px] lg:w-[800px] h-auto blur-xl mix-blend-screen pointer-events-none"
       />
+
+      {/* Dark Background Left */}
       <img
         src={bgDark}
-        alt=""
-        className="absolute
-              size-[800px]
-               mix-blend-screen
-absolute top-0 left-0 
-               "
+        alt="Dark Background Left"
+        className="absolute top-0 left-0 w-[300px] sm:w-[500px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
       />
+
+      {/* Dark Background Right */}
       <img
         src={bgDark}
-        alt=""
-        className="absolute
-              size-[800px]
-               mix-blend-screen
-absolute 
-top-0
- right-0"
+        alt="Dark Background Right"
+        className="absolute top-0 right-0 w-[300px] sm:w-[380px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
       />
 
       <section className="relative z-50">
