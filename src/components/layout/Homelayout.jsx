@@ -25,18 +25,19 @@ export default function Homelayout() {
       />
 
       {/* Dark Background Left */}
-      <img
+      {/* <img
         src={bgDark}
         alt="Dark Background Left"
         className="absolute top-0 left-0 w-[300px] sm:w-[500px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
-      />
+      /> */}
 
       {/* Dark Background Right */}
-      <img
+      {/* <img
         src={bgDark}
         alt="Dark Background Right"
         className="absolute top-0 right-0 w-[300px] sm:w-[500px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
-      />
+      /> */}
+      <img src="src/assets/1920 x 1080 pixels .png" className="absolute -top-30 w-full h-300 mix-blend-screen" alt="" />
 
       <section className="relative z-50">
         <Navbar />
