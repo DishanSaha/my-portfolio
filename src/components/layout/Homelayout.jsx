@@ -7,7 +7,7 @@ import Technologies from "../../sections/Technologies";
 import About from "../../sections/About";
 import Projects from "../../sections/Projects";
 import bgLight from "/src/assets/Untitled design (1).png";
-import bg from "/src/assets/Untitled design.png";
+import bg from "/src/assets/bg.png";
 
 
 const reviewsPromise = fetch('/Reviews.json')
