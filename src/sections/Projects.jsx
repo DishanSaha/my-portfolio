@@ -1,5 +1,9 @@
 import React from 'react'
 import { Github, ExternalLink } from 'lucide-react';
+import Project1 from "/src/assets/Rectangle 61.png";
+import Project2 from "/src/assets/Rectangle 61 (1).png";
+import Project3 from "/src/assets/Rectangle 61 (2).png";
+import Project4 from "/src/assets/Rectangle 61 (3).png";
 
 export default function Projects() {
     return (
@@ -8,7 +12,7 @@ export default function Projects() {
 
             <div className='max-w-300 grid grid-cols-1 lg:grid-cols-2 mx-auto py-10 gap-6 px-3 lg:px-0'>
                 <div className='  border border-white/10 rounded-3xl space-y-7 pt-7 overflow-hidden'>
-                    <img src="src/assets/Rectangle 61.png" className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
+                    <img src={Project1} className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
                     <div className='space-y-7 px-5'>
                         <div className='space-y-3'>
                             <div className='flex justify-between items-center'>
@@ -31,7 +35,7 @@ export default function Projects() {
 
                 </div>
                 <div className='  border border-white/10 rounded-3xl space-y-7 pt-7 overflow-hidden'>
-                    <img src="src/assets/Rectangle 61 (1).png" className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
+                    <img src={Project2} className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
                     <div className='space-y-7 px-5'>
                         <div className='space-y-3'>
                             <div className='flex justify-between items-center'>
@@ -54,7 +58,7 @@ export default function Projects() {
                 </div>
 
                 <div className='  border border-white/10 rounded-3xl space-y-7 pt-7 overflow-hidden'>
-                    <img src="src/assets/Rectangle 61 (2).png" className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
+                    <img src={Project3} className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
                     <div className='space-y-7 px-5'>
                         <div className='space-y-3'>
                             <div className='flex justify-between items-center'>
@@ -77,7 +81,7 @@ export default function Projects() {
 
                 </div>
                 <div className='  border border-white/10 rounded-3xl space-y-7 pt-7 overflow-hidden'>
-                    <img src="src/assets/Rectangle 61 (3).png" className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
+                    <img src={Project4} className='w-full transform transition-transform duration-300 hover:scale-105' alt="" />
                     <div className='space-y-7 px-5'>
                         <div className='space-y-3'>
                             <div className='flex justify-between items-center'>

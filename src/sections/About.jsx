@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from '/src/assets/IMG_20260207_191253.jpg.jpeg'
+import coverLogo from '/src/assets/MEUS_TRABALHOS-removebg-preview 1.png'
 
 export default function About() {
     return (
@@ -37,9 +39,9 @@ export default function About() {
 
                 </div>
                 <div className="flex-1 h-[250px] sm:h-[350px] lg:h-[400px] relative">
-                    <img src="/src/assets/MEUS_TRABALHOS-removebg-preview 1.png" className='bg-[#088395] rounded-full size-15 absolute top-5 right-[-35px] transform -translate-x-1/2 -translate-y-1/2' alt="" />
+                    <img src={coverLogo} className='bg-[#088395] rounded-full size-15 absolute top-5 right-[-35px] transform -translate-x-1/2 -translate-y-1/2' alt="" />
                     <img
-                        src="/src/assets/IMG_20260207_191253.jpg.jpeg"
+                        src={Image}
                         alt="About Me"
                         className="w-full h-full object-cover rounded-2xl"
                     />

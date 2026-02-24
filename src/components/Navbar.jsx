@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from "flowbite-react";
-
+import logo from '../assets/logo.png';
 
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
             </div>
 
           </div> */}
-          <img src="/src/assets/logo.png" className="lg:w-[77px] lg:h-[80px] h-[60px]" alt="logo" />
+          <img src={logo} className="lg:w-[77px] lg:h-[80px] h-[60px]" alt="logo" />
         </div>
         {/* <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

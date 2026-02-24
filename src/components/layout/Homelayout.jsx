@@ -6,7 +6,8 @@ import Hero from "/src/sections/Hero";
 import Technologies from "../../sections/Technologies";
 import About from "../../sections/About";
 import Projects from "../../sections/Projects";
-
+import bgLight from "/src/assets/Untitled design (1).png";
+import bgDark from "/src/assets/bg.png";
 
 
 const reviewsPromise = fetch('/Reviews.json')
@@ -17,7 +18,7 @@ export default function Homelayout() {
   return (
     <div className="relative min-h-screen bg-black overflow-hidden">
       <img
-        src="/src/assets/Untitled design (1).png"
+        src={bgLight}
         alt=""
         className="absolute top-0 lg:right-[150px]
               size-[800px]
@@ -25,7 +26,7 @@ export default function Homelayout() {
                mix-blend-screen"
       />
       <img
-        src="/src/assets/bg.png"
+        src={bgDark}
         alt=""
         className="absolute
               size-[800px]
@@ -34,7 +35,7 @@ absolute top-0 left-0
                "
       />
       <img
-        src="/src/assets/bg.png"
+        src={bgDark}
         alt=""
         className="absolute
               size-[800px]
