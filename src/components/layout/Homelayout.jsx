@@ -35,7 +35,7 @@ export default function Homelayout() {
       <img
         src={bgDark}
         alt="Dark Background Right"
-        className="absolute top-0 right-0 w-[300px] sm:w-[380px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
+        className="absolute top-0 right-0 w-[300px] sm:w-[500px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
       />
 
       <section className="relative z-50">
