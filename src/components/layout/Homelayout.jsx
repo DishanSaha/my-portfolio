@@ -7,7 +7,7 @@ import Technologies from "../../sections/Technologies";
 import About from "../../sections/About";
 import Projects from "../../sections/Projects";
 import bgLight from "/src/assets/Untitled design (1).png";
-import bgDark from "/src/assets/bg.png";
+import bg from "/src/assets/Untitled design.png";
 
 
 const reviewsPromise = fetch('/Reviews.json')
@@ -37,7 +37,7 @@ export default function Homelayout() {
         alt="Dark Background Right"
         className="absolute top-0 right-0 w-[300px] sm:w-[500px] lg:w-[800px] h-200 mix-blend-screen pointer-events-none"
       /> */}
-      <img src="src/assets/1920 x 1080 pixels .png" className="absolute -top-30 w-full h-300 mix-blend-screen" alt="" />
+      <img src={bg} className="absolute -top-30 w-full h-300 mix-blend-screen" alt="" />
 
       <section className="relative z-50">
         <Navbar />
